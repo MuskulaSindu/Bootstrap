@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">CVRCOE</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+        <span class="mr-auto"></span>
+            <ul class="navbar-nav">
+           
+           <li class="nav-item">
+               <a href="#" class="nav-link"><i class="fa fa-home"></i>Home</a>
+           </li>
+           <li>
+            <a href="#"  class="nav-link"><i class="fa fa-info"></i>About Us</a>
+        </li>
+        <li>
+            <a href="#"  class="nav-link"><i class="fa fa-address-card"></i>Address</a>
+        </li>
+        <li>
+            <a href="#loginmodal"  class="nav-link" data-toggle="modal"><i class="fa fa-signin"></i>Login</a>
+        </li>
+
+       </ul>
+       </div>
+
+    </nav>
+
+    <div class="modal" id="loginmodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>LOGIN</h3>
+                </div>
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="mail@example.gmail"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder=""/>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <p class=" h1 jumbotron text-center" >CVR College of Engineering</p>
+    <br />
+
+    <div class="carousel " id="slide" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#slide" data-slide-to="0"></li>
+                <li data-target="#slide" data-slide-to="1"></li>
+                <li data-target="#slide" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-item active">
+                <img src="D:\images\buffet.png" alt="name" class="img-fluid" style="height:300px">
+                <div class="carousel-caption">
+                    <h3>Buffet</h3>
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <img src="D:\images\uthappizza.png" alt="name" class="img-fluid" style="height:300px">
+                <div class="carousel-caption">
+                    <h3>Buffet</h3>
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <img src="D:\images\vadonut.png" alt="name" class="img-fluid" style="height:300px">
+                <div class="carousel-caption">
+                    <h3>Buffet</h3>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#slide" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#slide" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>        
+
+    </div>
+   
+    <br />
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a href="#Notifications" class="nav-link" active data-toggle="tab">Notifications</a>
+        </li>
+        <li class="nav-item">
+            <a href="#News" class="nav-link"  data-toggle="tab">Latest News</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <li class="tab-pane" id="Notifications">This contains Notifications</li>
+        <li class="tab-pane" id="News">This contains Latest News</li>
+    </div>
+
+    <br />
+    <div class="row">
+    <div class="col-md-3">
+    <div class="card" style="width:300px;margin : 10px">
+    <div class="card-header">
+
+    </div>
+    <div class="card-body">
+        <img src="D:\images\logo.png" class="img-fluid">
+    </div>
+    <div class="card-footer">
+        <h3>Logo</h3>
+        <p class="text-muted">This is footer part of card</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-md-3">
+        <div class="card" style="width:300px;margin : 10px">
+        <div class="card-header">
+    
+        </div>
+        <div class="card-body">
+            <img src="D:\images\logo.png" class="img-fluid">
+        </div>
+        <div class="card-footer">
+            <h3>Logo</h3>
+            <p class="text-muted">This is footer part of card</p>
+        </div>
+        </div>
+        </div>
+        </div>
+    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
